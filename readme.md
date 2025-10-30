@@ -10,7 +10,7 @@
 
 # [Zabbix](http://158.160.76.163/zabbix/) (Логин: Admin / Пароль: zabbix)
 
-# [ElasticSearch](http://158.160.23.169:5601)
+# [ElasticSearch](http://158.160.28.144:5601)
 
 
 # Выполнение работы
