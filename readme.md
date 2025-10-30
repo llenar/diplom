@@ -8,7 +8,7 @@
 
 # [Nginx](http://158.160.189.220)
 
-# [Zabbix](http://89.169.189.22/zabbix/) (Логин: Admin / Пароль: zabbix)
+# [Zabbix](http://158.160.76.163/zabbix/) (Логин: Admin / Пароль: zabbix)
 
 # [ElasticSearch]([http://158.160.23.169:5601](http://158.160.23.169:5601/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:a5499ca0-b563-11f0-a052-6f8cc1653b65,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))))
 
@@ -89,7 +89,7 @@ apt install ansible
 
 <img width="709" height="515" alt="nginx html" src="https://github.com/user-attachments/assets/736fc33a-1a0b-4d9b-81d0-b06e8f5c5795" />
 
-# [Zabbix](http://89.169.189.22/zabbix/) (Логин: Admin / Пароль: zabbix)
+# [Zabbix](http://158.160.76.163/zabbix/) (Логин: Admin / Пароль: zabbix)
 
 ### Установка Zabbix Server
 
