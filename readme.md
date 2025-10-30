@@ -101,6 +101,8 @@ apt install ansible
 
 <img width="1119" height="419" alt="zabbix agent" src="https://github.com/user-attachments/assets/777b798c-faa5-4f9e-aced-da9c6829a537" />
 
+### Проверка статуса Zabbix-agent
+
 <img width="1147" height="587" alt="zabbix agent status" src="https://github.com/user-attachments/assets/664f4e14-bec0-4241-b42b-010756ece6f0" />
 
 <img width="1696" height="560" alt="ZabbixServerHost" src="https://github.com/user-attachments/assets/b30c353a-26e3-4f16-9836-faabcfb90d1a" />
