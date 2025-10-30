@@ -46,7 +46,8 @@ terraform apply
 
 <img width="682" height="588" alt="terraform apply" src="https://github.com/user-attachments/assets/3691a026-936f-46f0-8843-c107d7785dba" />
 
-<img width="1280" height="371" alt="vm" src="https://github.com/user-attachments/assets/4e6a360c-d0c4-4f95-b8c8-15382722465a" />
+<img width="1595" height="388" alt="image" src="https://github.com/user-attachments/assets/499d7a19-df30-40e4-b6cd-520182b2ade8" />
+
 
 # Yandex Cloud
 
