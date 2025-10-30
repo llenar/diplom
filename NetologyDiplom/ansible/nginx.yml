@@ -4,19 +4,18 @@
   become: yes
 
   tasks:
-
     - name: Установка Nginx
       apt:
         name: nginx
         state: latest
         update_cache: yes
-    
+
     - name: Запуск Nginx
       service:
         name: nginx
         state: started
         enabled: yes
-    
+
     - name: Создание HTML-странички
       copy:
         #content: "<html><head> <title>Welcome to My Website!</title></head><body><h1>Netology Diplom!</h1><p>Welcome to my custom homepage!</p></body></html>"
@@ -33,10 +32,10 @@
           </head>
           <body bgcolor="#C7FCEC">
             <main>
-                 <h1>Netology Diplom!</h1>  
-                 <p><a href="http://158.160.76.163/zabbix/"><h1>Zabbix</a></p>
+                 <h1>Netology Diplom!</h1>
+                 <p><a href="http://158.160.76.163/zabbix/">Zabbix</a></p>
             </main>
-            <script src="index.js"></script> 
+            <script src="index.js"></script>
           </body>
           </html>
         dest: /var/www/html/index.html
