@@ -10,7 +10,7 @@
 
 # [Zabbix](http://89.169.189.22/zabbix/) (Логин: Admin / Пароль: zabbix)
 
-# [ElasticSearch](http://158.160.23.169:5601)
+# [ElasticSearch]([http://158.160.23.169:5601](http://158.160.23.169:5601/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(columns:!(),filters:!(),index:a5499ca0-b563-11f0-a052-6f8cc1653b65,interval:auto,query:(language:kuery,query:''),sort:!(!('@timestamp',desc)))))
 
 
 # Выполнение работы
