@@ -12,7 +12,6 @@
 
 # [ElasticSearch](http://158.160.23.169:5601)
 
-# [Filebeat]()
 
 # Выполнение работы
 # Terraform
