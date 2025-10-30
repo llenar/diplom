@@ -137,7 +137,14 @@ apt install ansible
 <img width="1280" height="414" alt="filebeat" src="https://github.com/user-attachments/assets/4aad47d0-e361-4194-8a58-fc5cdba3f32d" />
 
 ### Проверка статуса Filebeat
-<img width="1522" height="276" alt="web-2 filebeat status" src="https://github.com/user-attachments/assets/85584fdf-b045-4782-9b86-dbf6a0b9fbfd" />
+
+### web-1
+<img width="1321" height="200" alt="image" src="https://github.com/user-attachments/assets/11819163-72bf-41bd-a066-f51e29d2c238" />
+
+### web-2
+
+<img width="1332" height="184" alt="image" src="https://github.com/user-attachments/assets/5b671bf9-58c6-448a-95dc-fc748d1d351f" />
+
 
 ### Проверка логов Filebeat
 <img width="1873" height="982" alt="filebeat site" src="https://github.com/user-attachments/assets/3a9dc700-996d-42af-bbf2-89a0a26ed8ce" />
