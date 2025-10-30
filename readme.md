@@ -85,7 +85,8 @@ apt install ansible
 
 ### Протестируйте сайт curl -v 158.160.189.220:80
 
-<img width="785" height="543" alt="image" src="https://github.com/user-attachments/assets/03070dc3-aac6-4d62-b9fe-9ddc21a5f16e" />
+<img width="864" height="547" alt="image" src="https://github.com/user-attachments/assets/cb6341ea-c96c-460b-98ae-8d4a7b731c5f" />
+
 
 
 <img width="709" height="515" alt="nginx html" src="https://github.com/user-attachments/assets/736fc33a-1a0b-4d9b-81d0-b06e8f5c5795" />
