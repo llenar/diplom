@@ -15,7 +15,7 @@
 
 # Выполнение работы
 # Terraform
-Скачиваем последней версии Terraform из [зеркала](https://hashicorp-releases.yandexcloud.net/terraform) Яндекс.
+Скачиваем последнюю версию Terraform из [зеркала](https://hashicorp-releases.yandexcloud.net/terraform) Яндекс.
 
 Поднимаем инфраструктуру в Yandex Cloud используя terraform.
 
