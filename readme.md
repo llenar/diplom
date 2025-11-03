@@ -29,6 +29,7 @@ export YC_TOKEN=
 export YC_CLOUD_ID=
 export YC_FOLDER_ID=
 ```
+
 Перед применением конфигурации требуется выполнить инициализацию провайдера и установку необходимых плагинов. Для этого выполним:
 
 ```
@@ -43,12 +44,15 @@ terraform init
 ```
 terraform plan
 ```
-Запускаем процесс создания инфраструктуры  terraform apply.
+
+Запускаем процесс создания инфраструктуры terraform apply.
+
 ```
 terraform apply
 ```
 
-**Проверяем в Yandex Cloud, что всё прпвильно загрузилось.**
+**После выполнения команды terraform apply проверяем корректность созданных ресурсов через веб-интерфейс Yandex Cloud:**
+
 <img width="682" height="588" alt="terraform apply" src="https://github.com/user-attachments/assets/3691a026-936f-46f0-8843-c107d7785dba" />
 
 <img width="1588" height="495" alt="image" src="https://github.com/user-attachments/assets/7f0c4472-4525-4ac3-bce7-fa6355bc596f" />
