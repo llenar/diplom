@@ -1,0 +1,45 @@
+---
+- name: Установка Nginx
+  hosts: web
+  become: yes
+  roles:
+    - nginx
+
+- name: Установка Zabbix Agent на веб-серверы (если отдельная роль)
+  hosts: web
+  become: yes
+  vars:
+    zabbix_server: 10.10.4.5
+  roles:
+    - zabbix-agent
+
+- name: Установка Zabbix Server
+  hosts: mon
+  become: yes
+  vars:
+    pass_zabbixdb: zabbix
+  roles:
+    - zabbix
+
+- name: Установка Elasticsearch
+  hosts: elastic_srv
+  become: yes
+  gather_facts: true
+  roles:
+    - elastic
+
+- name: Установка Kibana
+  hosts: kibana_srv
+  become: yes
+  vars:
+    elastic_httphost: 10.10.3.4:9200
+  roles:
+    - kibana
+
+- name: Установка Filebeat
+  hosts: web
+  become: yes
+  gather_facts: true
+  vars:
+    kibana_host: 10.10.4.3:5601
+    elastic_host: 10.10.3.4:9200
