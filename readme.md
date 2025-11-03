@@ -8,9 +8,9 @@
 
 # [Nginx](http://158.160.189.220)
 
-# [Zabbix](http://158.160.76.163/zabbix/) (Логин: Admin / Пароль: zabbix)
+# [Zabbix](http://89.169.173.235/zabbix/) (Логин: Admin / Пароль: zabbix)
 
-# [ElasticSearch](http://158.160.28.144:5601)
+# [ElasticSearch](http://89.169.163.123:5601)
 
 
 # Выполнение работы
@@ -46,7 +46,7 @@ terraform apply
 
 <img width="682" height="588" alt="terraform apply" src="https://github.com/user-attachments/assets/3691a026-936f-46f0-8843-c107d7785dba" />
 
-<img width="1595" height="388" alt="image" src="https://github.com/user-attachments/assets/499d7a19-df30-40e4-b6cd-520182b2ade8" />
+<img width="1588" height="495" alt="image" src="https://github.com/user-attachments/assets/7f0c4472-4525-4ac3-bce7-fa6355bc596f" />
 
 
 # Yandex Cloud
@@ -85,19 +85,19 @@ apt install ansible
 
 ### Протестируйте сайт curl -v 158.160.189.220:80
 
-<img width="864" height="547" alt="image" src="https://github.com/user-attachments/assets/cb6341ea-c96c-460b-98ae-8d4a7b731c5f" />
+<img width="873" height="549" alt="image" src="https://github.com/user-attachments/assets/ff487d41-7567-4a37-8d01-113adde57e88" />
 
 
 
 <img width="709" height="515" alt="nginx html" src="https://github.com/user-attachments/assets/736fc33a-1a0b-4d9b-81d0-b06e8f5c5795" />
 
-# [Zabbix](http://158.160.76.163/zabbix/) (Логин: Admin / Пароль: zabbix)
+# [Zabbix](http://89.169.173.235/zabbix/) (Логин: Admin / Пароль: zabbix)
 
 ### Установка Zabbix Server
 
 <img width="997" height="582" alt="zabbix server" src="https://github.com/user-attachments/assets/bd5cbb44-b214-40b6-b1e6-f42042d92684" />
 
-<img width="1635" height="812" alt="zabbix login" src="https://github.com/user-attachments/assets/81ee1029-4acd-48f1-87a3-8b32767abb62" />
+<img width="1424" height="823" alt="image" src="https://github.com/user-attachments/assets/b23d8968-a9e8-4c02-ac88-53d35de77224" />
 
 ### Установка Zabbix-agent
 
@@ -130,7 +130,7 @@ apt install ansible
 ### Проверка логов Kibana
 <img width="1273" height="349" alt="kibana log" src="https://github.com/user-attachments/assets/547afd13-c0f9-458a-baca-a5344d7308dc" />
 
-<img width="1870" height="978" alt="kibana site" src="https://github.com/user-attachments/assets/1123442f-4f7d-461e-b8df-ba7aaacd9cd3" />
+<img width="1497" height="845" alt="image" src="https://github.com/user-attachments/assets/85e09b04-800a-4071-a122-6d2ed7774851" />
 
 # Установка Filebeat
 
@@ -147,4 +147,4 @@ apt install ansible
 
 
 ### Проверка логов Filebeat
-<img width="1873" height="982" alt="filebeat site" src="https://github.com/user-attachments/assets/3a9dc700-996d-42af-bbf2-89a0a26ed8ce" />
+<img width="1871" height="984" alt="image" src="https://github.com/user-attachments/assets/afe36a36-218c-4e45-aa86-26a3eb225cdb" />
