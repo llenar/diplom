@@ -60,7 +60,7 @@
       lineinfile:
         path: /etc/zabbix/zabbix_server.conf
         regexp: '^DBPassword='
-        line: 'DBPassword=zabbix'
+        line: 'DBPassword='
     - name: Перезапуск служб Zabbix
       service:
         name: "{{ item }}"
