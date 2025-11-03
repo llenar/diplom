@@ -4,23 +4,26 @@
 Инфраструктура должна размещаться в Yandex Cloud и отвечать минимальным стандартам безопасности: запрещается выкладывать токен от облака в git. 
 Используйте [инструкцию](https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart#get-credentials).
 
-# [Полное задание к дипломной работе:](https://github.com/netology-code/sys-diplom/tree/diplom-zabbix)
+# [Полное задание к дипломной работе](https://github.com/netology-code/sys-diplom/tree/diplom-zabbix)
 
-# [Nginx](http://158.160.189.220)
+**[Nginx](http://158.160.189.220)**
 
-# [Zabbix](http://89.169.173.235/zabbix/) (Логин: Admin / Пароль: zabbix)
+**[Zabbix](http://89.169.173.235/zabbix/) (Логин: Admin / Пароль: zabbix)**
+ 
+**[ElasticSearch](http://89.169.163.123:5601)**
 
-# [ElasticSearch](http://89.169.163.123:5601)
 
+# Решение
+# Установка Terraform
+Скачиваем Terraform из [зеркала](https://hashicorp-releases.yandexcloud.net/terraform) Яндекс.
 
-# Выполнение работы
-# Terraform
-Скачиваем последнюю версию Terraform из [зеркала](https://hashicorp-releases.yandexcloud.net/terraform) Яндекс.
+Создаём необходимые ресурсы в Yandex Cloud с помощью Terraform.
 
-Поднимаем инфраструктуру в Yandex Cloud используя terraform.
+Для доступа к облаку потребуется указать учетные данные через переменные окружения. Выполните в консоли следующие команды, подставив актуальные значения:
 
-Указываем token id, cloud id и folder id через задание переменных текущего сеанса в консоли подставляя свои id в команды.
+Аутентификационный токен можно получить через [сервис авторизации](https://oauth.yandex.ru/authorize?response_type=token&client_id=1a6990aa636648e9b2ef855fa7bec2fb) Яндекс OAuth.
 
+token_id и folder_id доступны в [Консоли управления](https://console.yandex.cloud/cloud) Yandex Cloud.  
 ```
 export YC_TOKEN=
 export YC_CLOUD_ID=
@@ -44,6 +47,7 @@ terraform plan
 terraform apply
 ```
 
+**Проверяем в Yandex Cloud, что всё прпвильно загрузилось.**
 <img width="682" height="588" alt="terraform apply" src="https://github.com/user-attachments/assets/3691a026-936f-46f0-8843-c107d7785dba" />
 
 <img width="1588" height="495" alt="image" src="https://github.com/user-attachments/assets/7f0c4472-4525-4ac3-bce7-fa6355bc596f" />
