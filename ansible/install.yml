@@ -5,7 +5,7 @@
   roles:
     - nginx
 
-- name: Установка Zabbix Agent на веб-серверы (если отдельная роль)
+- name: Установка Zabbix Agent
   hosts: web
   become: yes
   vars:
