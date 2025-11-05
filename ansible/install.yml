@@ -43,3 +43,5 @@
   vars:
     kibana_host: 10.10.4.3:5601
     elastic_host: 10.10.3.4:9200
+  roles:
+    - filebeat
